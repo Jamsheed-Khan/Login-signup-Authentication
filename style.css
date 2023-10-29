@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+body{
+    /* background-color: rgb(0, 0, 33); */
+    background-image: url(./network-connection-background-abstract-style_23-2148875738.avif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: white;
+}
+h1{
+    color: cyan;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main{
+    background-image: blur(50%);
+    margin:10px 20%;
+    margin-top: 10%;
+    border: 1px solid cyan;
+    width: auto ;
+    border-radius: 15px;
+    box-shadow:0 0 40px 25px cyan ;
+    padding: 50px 10px 50px 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.inp{
+    display: inline-block;
+    padding: 5px;
+    box-shadow: 0 0 5px 3px cyan;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid cyan;
+    color:white;
+}
+.main .btn{
+    padding: 8px;
+    border: 1px solid cyan;
+    /* border-radius: 15px; */
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+
+}
+.btn:hover{
+    background-color: cyan;
+    color: black;
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 40px 5px cyan;
+}
+

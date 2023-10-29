@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signin Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Signin-Page</h1>
-    <div type="form">
-        <label  for="">Email:</label><input id="lemail" type="email" placeholder="email" ><br><br>
-        <label  for="">password:</label><input id="lpassword" type="password" placeholder="password" ><br><br>
-        <button id="Login">Login</button>
+    <div class="main" type="form">
+        <h1>Signin Page</h1>
+        <input class="inp" id="lemail" type="email" placeholder="email" ><br><br>
+        <input class="inp" id="lpassword" type="password" placeholder="password" ><br><br>
+        <button onclick="loginclick()" class="btn" id="Login">Login</button>
     </div>
 
 

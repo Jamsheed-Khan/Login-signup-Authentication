@@ -17,6 +17,12 @@
   const app = initializeApp(firebaseConfig);
   
   const auth = getAuth();
+
+
+
+  //create user with email and password
+
+
   let registerbtn = document.querySelector("#Register_btn")
   registerbtn.addEventListener('click',function () {
     let remail = document.getElementById("remail")
@@ -27,7 +33,7 @@
      
     const user = userCredential.user;
     console.log('user==>',user);
-    
+    // ...
   })
   .catch((error) => {
     const errorCode = error.code;
@@ -37,8 +43,13 @@
   });
 
 
-  let login = document.getElementById("login")
-  login.addEventListener('click',function(){
+
+//signin with Email and password......................
+
+
+let login = document.querySelector("#login")
+
+  login.addEventListener('click',()=>{
     let lemail = document.getElementById("lemail")
     let lpassword = document.getElementById("lpassword")
     signInWithEmailAndPassword(auth, lemail.value, lpassword.value)
