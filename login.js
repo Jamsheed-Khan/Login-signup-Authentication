@@ -27,3 +27,17 @@ let lemail = document.querySelector('#lemail')
             console.log(errorMessage);
         });
 });
+
+let forgotBtn = document.querySelector("#forgot_btn")
+forgotBtn.addEventListener('click' , ()=>{
+    const user = auth.currentUser;
+    const newPassword = prompt('enter new password');
+    updatePassword(user, newPassword).then(() => {
+        console.log("Update successful");
+        // Update successful.
+      }).catch((error) => {
+        // An error ocurred
+        console.log("Sorry try again");
+        // ...
+      });
+})
