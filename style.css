@@ -69,9 +69,35 @@ h1 {
     cursor: pointer;
     background: transparent;
 }
+.p{
+    font-size: 10px;
+    margin-top: 10px;
+    color: cyan;
+}
+.p a{
+    text-decoration: none;
+    color:white;
 
+}
+.p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.reg{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-left: 130px;
+    margin-top: -13px;
+}
+.reg:hover{
+    color: cyan;
+    text-decoration: underline;
+    cursor: pointer;
+}
 #forgot_btn a:hover {
     text-decoration: underline;
+    color: cyan;
 }
 
 #forgot_btn a {
