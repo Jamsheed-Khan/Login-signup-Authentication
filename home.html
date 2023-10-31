@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(./network-connection-background-abstract-style_23-2148875738.avif);
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            color: cyan;
+        }
+        .btn{
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 3px cyan;
+            background: transparent;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .btn button:hover{
+            background: cyan;
+            box-shadow: 0 0  15px 4px cyan;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to home page</h1>
-    <button class="btn" id="logout_btn">Logout</button>
+   <div class="btn"> <button class="btn" id="logout_btn">Logout</button></div>
 
 
     <script type="module" src="home.js"></script>
