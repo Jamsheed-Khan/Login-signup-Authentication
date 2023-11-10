@@ -20,7 +20,7 @@ let lemail = document.querySelector('#lemail')
         .then((userCredential) => {
             const user = userCredential.user;
             console.log(user);
-            window.location = 'home.html'
+            window.location = './todo app/todo.html.html'
         })
         .catch((error) => {
             const errorMessage = error.message;
